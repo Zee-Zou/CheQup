@@ -3,24 +3,12 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
-		"ghcr.io/devcontainers/features/conda:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
-		"ghcr.io/devcontainers/features/nvidia-cuda:1": {},
-		"ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
-		"ghcr.io/devcontainers-contrib/features/cloudflared:1": {},
-		"ghcr.io/devcontainers-contrib/features/cloudflared-fips:1": {},
 		"ghcr.io/devcontainers-contrib/features/ffmpeg-apt-get:1": {},
-		"ghcr.io/devcontainers-contrib/features/ffmpeg-homebrew:1": {},
-		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {},
 		"ghcr.io/devcontainers-contrib/features/node-asdf:0": {},
-		"ghcr.io/devcontainers-contrib/features/podman-homebrew:1": {},
-		"ghcr.io/devcontainers-contrib/features/postgres-asdf:1": {},
-		"ghcr.io/devcontainers-contrib/features/typescript:2": {},
-		"ghcr.io/devcontainers-community/npm-features/typescript:1": {},
-		"ghcr.io/nullcoder/devcontainer-features/stripe-cli:1": {},
-		"ghcr.io/schlich/devcontainer-features/jenkins-x:1": {}
+		"ghcr.io/devcontainers-community/npm-features/typescript:1": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
